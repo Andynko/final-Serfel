@@ -1,0 +1,520 @@
+/*------------LUDIA.CSS------------*/
+.App {
+  text-align: center;
+  background-image:url("pozadie.jpg");
+  height:100%;
+
+
+
+}
+
+.ludia {
+  color: black;
+  font-size: 32px;
+  text-align: center;
+
+  position: relative;
+  top: -20px;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: -35px;
+  font-family: Constantia;
+}
+
+
+/*------------ZACIATOK KODU------------*/
+/*------------DOMOV.js------------*/
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+
+
+.App-header {
+  background-color: black;
+  height: 150px;
+  opacity:0.9;
+
+  color: white;
+}
+
+.App-title {
+  font-size: 1px;
+color:red;
+
+
+
+}
+
+
+h1.nepizzuj {
+padding-top:40px;
+  font-size:30px;
+  color:white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+
+
+
+.123.{
+width: 150px;
+height:150px;
+
+
+
+}
+
+
+
+/*------------MENU------------*/
+
+div.menu{
+  height:40px;
+  width:420.5px;
+  background-color:black;
+  margin: auto;
+  opacity:0.9;
+
+
+
+}
+
+div.Nadmenu{
+  widht:802px;
+  height:40px;
+  background-color:black;
+  opacity:0.9;
+
+
+}
+
+
+div.domov{
+  height:40px;
+  width:100px;
+  background-color:black;
+  margin-left:-20px;
+  color:white;
+  text-align:center;
+  float:left;
+}
+
+
+
+p.domov{
+
+}
+
+div.domov:hover{
+  background-color:white;
+
+  color:black;
+
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+.menu li{
+  list-style: none;
+  float: left;
+  position: relative;
+  height: 40px;
+}
+
+.menu>li{
+  background-color:#f6e9c5;
+
+
+
+
+}
+
+
+
+
+.menu a{
+  display: block;
+  text-decoration: none;
+  color:#1b130d;
+
+  padding: 0 20px;
+  background-color:black;
+  color:white;
+
+  margin: 0;
+  position: relative;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.menu li:hover>a{
+
+  background-color:white;
+
+  color:black;
+
+}
+
+.menu li:hover span:after{
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+ul.menu-hover{
+  visibility: hidden;
+  position: absolute;
+  top:100%;
+  opacity: 0;
+  height: 0;
+  width: 220px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index:1000;
+}
+
+.menu li:hover .menu-hover{
+  visibility: visible;
+  height: 100%;
+  opacity: 0.95;
+}
+
+
+/*------------STREDNY OBRAZOK------------*/
+.pizza {
+  height:500px;
+  width:85%;
+  margin:auto;
+  box-shadow: 15px 15px 7px black;
+}
+
+
+
+div.button1{
+
+
+  height:50px;
+  width:50px;
+  background-color:red;
+}
+
+
+p.button1{
+
+  text-decoration-line:none;
+
+}
+
+div.centered{
+
+  height:50px;
+  width:100px;
+  background-color:white;
+  text-align:center;
+  margin:0;
+  color:black;
+  border-radius: 10px;
+
+}
+
+div.centered:hover{
+  opacity:0.65;
+  box-shadow: 7px 7px 7px black;
+
+
+}
+div.centered {
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  transform: translate(-50%, -50%);
+  opacity:0.8;
+  color:black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 52px;
+}
+
+div.centered1{
+
+  height:50px;
+  width:100px;
+  background-color:white;
+  text-align:center;
+  margin:0;
+  border-radius: 10px;
+}
+
+div.centered1:hover{
+  opacity:0.65;
+  box-shadow: 7px 7px 7px black;
+
+
+
+}
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+  opacity:0.8;
+  color:black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 52px;
+
+}
+
+
+div.cont {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+p.vyberte{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white;
+  font-size:35px;
+  font-family:Courier New;
+
+
+
+}
+
+
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+/* --------------KONTAKT ------------*/
+div.celok{
+
+  text-align: center;
+  background-image:url("pozadie.jpg");
+  height:1000px;
+
+
+
+}
+.ludia {
+  color:black;
+  font-size: 20px;
+  text-align: center;
+  font-family: Constantia;
+  position: relative;
+  padding-top:100px;
+  list-style-type: none;
+
+}
+
+div.spokojny{
+  margin: auto;
+  width: 72%;
+  height:700px;
+  background-color:black;
+
+
+
+}
+
+
+div.lava{
+
+  background-color:white;
+  width:50%;
+  height:250px;
+  float:left;
+  color:black;
+  font-size: 20px;
+
+
+}
+
+div.prava{
+  background-color:black;
+  width:50%;
+
+  height:250px;
+  font-size: 20px;
+  float:left;
+
+}
+
+
+
+p.otvaracie{
+  font-family: Constantia;
+  color:white;
+  position: relative;
+  padding-top:10px;
+}
+
+p.adresa{
+  font-family: Constantia;
+  color:white;
+  position: relative;
+  padding-top:18%;
+}
+
+p.support{
+  font-family: Constantia;
+  color:black;
+  position: relative;
+
+}
+
+
+img.fb{
+  padding-top:10px;
+width:30px;
+
+
+
+}
+
+img.fb:hover{
+
+  opacity:0.5;
+}
+
+div.mapa{
+color:white;
+ height:250px;
+  width:100%;
+ background-color:pink;
+
+
+
+}
+
+p.mapa{
+
+  font-family: Constantia;
+  font-size:25px;
+
+  text-align: center;
+
+
+
+}
+
+img.mapa{
+ width:100%;
+  height:400px;
+
+  padding-top:25px;
+
+}
+
+
+
+
+/* -------------- GALERIA ------------------*/
+
+div.galeria{
+
+  width:72%;
+  height:100%;
+
+  margin:auto;
+
+}
+
+img.pizza1{
+  height:155px;
+  width:242.5px;
+
+
+
+}
+
+img.pizza1:hover{
+  opacity:0.2;
+}
+
+
+/*----------------PONUKA----------*/
+
+img.ponuka1{
+width:100%;
+}
+
+img.ponuka2{
+  width:100%;
+}
+
+
+
+button.button{
+
+
+}
+
+button.button:hover{
+
+  opacity:0.8;
+
+}
+
+
+p.button{
+
+  text-decoration:none;
+  color:pink;
+
+}
+
+
+
+/*------------SPODOK--------------*/
+div.spodok{
+ width:100%;
+  height:142px;
+  background-color:black;
+  margin:auto;
+
+}
+
+p.spodok{
+
+  color:white;
+
+
+  text-align:center;
+  font-size:40px;
+  padding-top:45px;
+
+
+}
+
+
